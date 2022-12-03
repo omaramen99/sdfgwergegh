@@ -1,0 +1,30 @@
+._ProjectCard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    border-radius: 5px;
+    height: 50px;
+    width: 300px;
+    margin: 30px 110px;
+
+    box-shadow: 2px 2px 10px black;
+    overflow: hidden;
+}
+._ProjectCard:hover
+{
+cursor: pointer;
+background-color: #bbbbbb;
+}
+._projNameCard
+{
+    text-align: center;
+    margin: 0px !important;
+}
+._projNamee{
+    /*background-color: rgba(255, 255, 255, 0.644); border-radius: 10px;*/
+}
+
+.projCardPanel{opacity: 0; transition: all 0.5s; background-color: rgba(75, 75, 75, 0.418);  position: relative; display: flex; width: 100%; height: 75px; justify-content: center; top: -70px; padding-top: 15px; padding-bottom: 15px;}
+.projCardPanel:hover{ opacity: 1;}

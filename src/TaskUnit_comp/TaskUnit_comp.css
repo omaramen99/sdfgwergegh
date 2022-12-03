@@ -1,0 +1,65 @@
+.disdis
+{
+    color: rgb(218, 218, 218) !important;
+    cursor:not-allowed !important;
+}
+.taskTypeSpan
+{
+    font-size:  13px;
+    text-align: center;
+}
+.aawerdg{font-size: 13px !important;}
+.dropDownMenuBody
+{
+    position: absolute;
+    z-index: 999 !important;
+    width: fit-content;
+    height: 100px;
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+
+
+}
+.dropDownMenuBodyEle
+{
+    /* position: absolute; */
+    z-index: 999 !important;
+    font-size: 12px;
+    cursor: pointer;
+}
+.qwwrrqr
+{
+    position: absolute;
+    overflow: scroll;
+    overflow-x: scroll;
+}
+.taskCelll {
+    border: 1px solid black;
+    height: 50px;
+    /* overflow: hidden; */
+    text-align: left;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropDownMenuBody.show {
+    display: inline-block !important;
+    height: 150px;
+}
+.hiddenItem
+{
+display: none;
+}
+.taskDropDownBtn
+{
+    margin-left: 5px;
+}
+.editComment{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /* visibility: hidden; */
+}
